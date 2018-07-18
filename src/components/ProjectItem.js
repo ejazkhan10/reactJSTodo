@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../projectstyle.css';
 
 class ProjectItem extends Component {
     deleteProject(id){

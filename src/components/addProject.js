@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../inputstyling.css';
 import uuid from 'uuid';
 
 class AddProject extends Component {
@@ -44,15 +44,15 @@ class AddProject extends Component {
 
            <div>
                <label> Title </label> <br/>
-                <input type="text" ref="title"/>
+                <input className = "title" type="text" ref="title"/>
                </div>
                <div>
                <label> Category </label> <br/>
-                <select ref="category">
+                <select className = "category" ref="category">
                 {categoryOptions}
                 </select>
                </div>
-               <input type ="submit" value="submit"/>
+               <input className = "submitbtn" type ="submit" value="submit"/>
 
     </form>
         </div>
